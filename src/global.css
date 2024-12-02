@@ -1,0 +1,46 @@
+:root {
+    :root {
+        --white: #fff;
+        --gray-100: #e1e1e6;
+        --gray-300: #c4c4cc;
+        --gray-400: #8d8d99;
+        --gray-600: #323238;
+        --gray-700: #29292e;
+        --gray-800: #202024;
+        --gray-900: #121214;
+      
+        --Blue-300: ##93c5fd;
+        --Blue-400: ##60a5fa;
+        --Blue-500: ##3b82f6;
+        --Blue-600: ##2563eb;
+        --Blue-700: #1d4ed8;
+        --Blue-800: #1e40af;
+        --Blue-900: #1e3a8a;
+
+        --Rose-500: #f43f5e;
+        --Rose-600: #e11d48;
+        --Rose-700: #be123c;
+        --Rose-800: #9f1239;
+        --Rose-900: #881337;
+
+
+      } 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Rose-700);
+    color: var(--gray-400);
+    -webkit-font-smoothing: antialiased;
+    }
+
+body, input, select, textarea, button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16rem;
+}
